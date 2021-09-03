@@ -233,6 +233,7 @@ hr{
     }
     #ed-logo{
         order: 0;
+        margin-left: 0px;
     }
     .btn{
         display: block;
@@ -240,6 +241,12 @@ hr{
         height: 30px;
         margin: auto;
         font-size: 15px;
+    }
+    .intro{
+        width: 50%;
+    }
+    #design-logo{
+        margin-right: 0px;
     }
 
 }
