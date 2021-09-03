@@ -1,0 +1,245 @@
+/* elements */
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: #40514E;
+    
+}
+p{
+    line-height: 2;
+}
+
+a{
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: #EAF6F6;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 5.625rem;
+    color: #66BFBF;
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    font-size: 2.5rem;
+    color:#66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+    
+
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    color: #11999E;
+    font-size: 1.25rem;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 6px;
+    width: 5%;
+    color: #40514E;
+    margin: 100px auto;
+}
+
+
+/* classes */
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.skill-img{
+    width: auto;
+    height: 100px;
+}
+.archit{
+    height: 200px;
+    width: auto;
+    
+    
+}
+
+.top-div{
+    background-color:#E8F6EF;
+    position: relative;
+    padding-top: 100px;
+}
+.pro{
+    text-decoration: underline;
+}
+.top-cloud{
+    position: absolute;
+    top:40px;
+    right:300px;
+
+}
+.bottom-cloud{
+    position: absolute;
+    left:250px;
+    bottom: 300px;
+
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    
+}
+.middle-container{
+    margin: 100px 0px;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.contact{
+    width: 40%;
+    margin: 40px auto;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+
+/* id */
+#mountain{
+    width: 500px;
+    height: auto;
+}
+#design{
+    display: flex;
+    text-align: center;
+    
+    
+}
+#education{
+    display: flex;
+    text-align: center;
+    
+    
+}
+#design-logo{
+    margin-right: 20px;
+    
+
+}
+#ed-logo{
+    order: 2;
+    margin-left: 20px;
+    
+}
+
+/* Responsive */
+
+@media screen and (max-width:768px) {
+    h1{
+        font-size: 3rem;
+
+    }
+    h2{
+        font-size: 1.5rem;
+
+    }
+    h3{
+        font-size: 1.25rem;
+
+    }
+    .top-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top-cloud{
+        right:50px;
+        top: 40px;
+        width: 100px;
+    }
+    .bottom-cloud{
+        left: 50px;
+        bottom: 130px;
+        width: 100px;
+    }
+    #mountain{
+        width: 250px;
+        
+    }
+    .profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .archit{
+        height: 150px;
+        width: auto;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+
+    hr{
+        margin: 70px auto;
+    }
+    .skill-row{
+        width: 50%;
+        margin: 70px auto;
+        
+    }
+    #design{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #education{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #ed-logo{
+        order: 0;
+    }
+    .btn{
+        display: block;
+        width: 90px;
+        height: 30px;
+        margin: auto;
+        font-size: 15px;
+    }
+
+}
